@@ -1,0 +1,284 @@
+/************** ID ***************/
+
+
+/************** Tags ***************/
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+/************** Navigation Bar ***************/
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.logo {
+  width: 4%;
+  padding-right: 1%;
+}
+
+/************** Headings ***************/
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+  padding-bottom: 0px
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+/************** Download Buttons ***************/
+
+.download-button {
+  margin: 5% 7% 5% 0;
+}
+
+/************** iPhone ***************/
+
+.title-img {
+  width: 60%;
+  transform:rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/************** Features of Website  ***************/
+#features {
+  margin: auto;
+  background-color: #fff;
+  position: relative;
+}
+
+.ft-box {
+  padding: 5%;
+}
+
+.ft-icons {
+  color: #ef8172;
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.ft-icons:hover {
+  color: #ff4c68;
+}
+.ft-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.ft-text {
+  color: #8f8f8f;
+}
+
+/************** Testimonials  ***************/
+
+#testimonials {
+  color: #fff;
+  background-color: #ef8172
+}
+
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/************** Pricing  ***************/
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card {
+  border-color: #ef8172;
+  height: 100%;
+}
+
+.price-heading {
+  color: #ef8172;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.price {
+  color: #ef8172;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.dog-race {
+  font-size: 1.5rem;
+}
+
+.btn1  {
+  border-color: #ef8172;
+  color: #ef8172;
+}
+
+.btn2 {
+  background-color: #ef8172;
+  border-color: #ef8172;
+}
+
+.btn3 {
+  background-color: #ef8172;
+  border-color: #ef8172;
+}
+
+.btn1:hover,
+.btn1:active,
+.btn1:focus,
+.btn1:visited{
+    background-color: #f2543f !important;
+    border-color: #fff !important;
+  }
+
+.btn2:hover,
+.btn2:active,
+.btn2:focus,
+.btn2:visited{
+    background-color: #f2543f !important;
+    border-color: #fff !important;
+}
+
+.btn3:hover,
+.btn3:active,
+.btn3:focus,
+.btn3:visited{
+        background-color: #f2543f !important;
+        border-color: #fff !important;
+}
+
+.card-header {
+  background-color: #ef8172;
+  color: #fff;
+  border-color: #ef8172;
+}
+
+/************** Footer   ***************/
+
+#cta {
+  background-color: #ff4c68;
+}
+
+.bottom-logo {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #fff;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+
+.bottom-button {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+#footer {
+  background-color: #fff;
+}
+
+.social-media {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.copyright {
+  color: #5d5e5e;
+}
+
+@media screen and (max-width: 1130px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    display: inline-grid;
+  }
+  .row {
+    position: static;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .big-heading {
+    font-size: 2rem;
+  }
+  .testimonial-text {
+    font-size: 1.5rem;
+    }
+  .ft-icons {
+    font-size: 2rem;
+    }
+  .ft-title {
+    font-size: 1rem;
+    }
+  .price-heading {
+    font-size: 1.5rem;
+    }
+  .price {
+    font-size: 2rem;
+    }
+  .dog-race {
+    font-size: 1rem;
+    }
+  .bottom-logo {
+    font-size: 2rem;
+
+    }
+}
